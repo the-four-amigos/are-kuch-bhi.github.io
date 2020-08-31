@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(176, 221, 221);
+
+}
+marquee
+{ 
+  font-family: cursive;
+  font-size: 24px; 
+  font-weight: 700; 
+  line-height: 26.4px; 
+  background-color: rgb(209, 242, 248);
+  position: fixed;
+  overflow-block: auto;
+}
+#navigation{
+    background-color:rgb(110, 190, 190);
+    /* border: 1px solid black; */
+    border-radius: 3px;
+    padding: 3px;
+    overflow: auto; 
+    margin-bottom: 5px;
+    /* position: sticky; */
+    position: relative;
+    top: 28px;
+
+}
+.navbutton{
+    float:left;
+     list-style: none; 
+     margin: 13px 20px;
+
+     
+}
+#navigation  li a{
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: none;
+}
+/* .search{
+    float:left;
+     list-style: none; 
+     margin: 20px 20px;
+
+} */
+.login{
+    float: right;
+    list-style: none; 
+    margin: 13px 20px;
+}
+a:hover{
+    color: red;
+}
+#first{
+    /* border: 3px solid red; */
+    overflow: auto;
+    overflow: hidden;
+}
+.firstpart{
+    /* border: 2px solid yellow;  */
+    margin: 3px 3px;
+    padding: 5px 3px;
+    
+
+}
+#aside1{
+    float: right;
+    width: 30%;
+    height: 350px;
+    padding: 50px;
+    overflow: hidden;
+    position: relative;
+    top: 20px;
+    right: 20px;
+
+}
+#logo{
+    margin: auto;
+    height: 320px;
+    width: 90%;
+    /* border: 2px solid green; */
+    position: relative;
+    bottom: 30px;
+    right: 20px
+}
+#logoname{
+    position: absolute;
+    top: 50%;
+    left: 80%;
+    font-family: inherit;
+    font-size: 170%;
+}
+#section1{
+width: 65%;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 400%;
+}
+#article1{
+    float: left;
+    width: 65%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 120%;
+
+}
+#second{
+    overflow: hidden;
+    overflow: auto;
+     /* border: 2px solid yellow; */
+     margin: 3px 3px;
+     padding: 5px 3px;
+    
+}
+
+.lftimg {
+    float: left;
+    width: 22%;
+    margin: 18px 18px;
+    border-radius: 4px;
+    height: 350px;
+
+}
+.tname{
+    float: left;
+    list-style: none; 
+    margin: 13px 125px;
+    font-family: cursive;
+    font-size: 140%;
+
+}
+#contact{
+    background-color: rgb(151, 134, 211);
+    margin: 10px 0px 5px 0px;
+    border-radius: 5px;
+}
+.con{
+    margin: 6px 0px 10px 10px;
+}
+
